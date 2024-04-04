@@ -14,6 +14,7 @@ export const useAuth = () => {
           headers: {
             'Content-Type': 'application/json',
           },
+          cache: 'no-store',
         }
       )
 
